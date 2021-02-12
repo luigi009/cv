@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const prefix = '/'
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function Home() {
   return (

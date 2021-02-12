@@ -1,10 +1,12 @@
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export default function About() {
     return (
         <>
         <div class="content-wrapper">
             <div class="two-column-wrapper">
                     <div class="profile-image-wrapper">
-                    <img className="bounce-in-top" src="/luigi-fanaro-img.png" alt="" />
+                    <img className="bounce-in-top" src={prefix + '/luigi-fanaro-img.png'} alt="" />
                     </div>
 
                     <div class="profile-content-wrapper scale-in-center">
