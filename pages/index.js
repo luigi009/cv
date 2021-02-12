@@ -1,65 +1,250 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+
+        <script src="https://kit.fontawesome.com/00eaef9f88.js" crossorigin="anonymous"></script>
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <div class="content-wrapper">
+      
+      <div class="portfolio-items-wrapper">
+           
+            <div class="portfolio-item-wrapper" data-aos="fade-down">
+              <div class="portfolio-img-background" id="project-1"></div>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+              <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                  <i class="fas fa-gamepad fa-3x"></i>
+                </div>
+                
+                <h5 class="subtitle">Pong Game</h5>
+                <a href="https://github.com/luigi009/luigi-fanaro/tree/master/Games_Javascript/Pong" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                </a>
+              </div>
+            </div>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+            <div class="portfolio-item-wrapper" data-aos="fade-down">
+              <div class="portfolio-img-background" id="project-2"></div>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+              <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                  <i class="fas fa-gamepad fa-3x"></i>
+                </div>
+                
+                <h5 class="subtitle">Runner Game</h5>
+                <a href="https://github.com/luigi009/luigi-fanaro/tree/master/Games_Javascript/Runner" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                </a>
+              </div>
+            </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+            <div class="portfolio-item-wrapper" data-aos="fade-down">
+              <div class="portfolio-img-background" id="project-3"></div>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+              <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                <i class="fab fa-html5 fa-3x pr-3 bg-pan-left"></i>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                </div>
+                
+                <h5 class="subtitle">CSS Grid</h5>
+                <a href="https://github.com/luigi009/luigi-fanaro/tree/master/Landing%20Page%20with%20CSS%20Grid" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                </a>
+              </div>
+            </div>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+            <div class="portfolio-item-wrapper" data-aos="fade-down">
+              <div class="portfolio-img-background" id="project-4"></div>
+
+              <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                <i class="fab fa-html5 fa-3x pr-3"></i>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                </div>
+                
+                <h5 class="subtitle">Login & Registration</h5>
+                <a href="https://github.com/luigi009/luigi-fanaro/tree/master/login%26Registration" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-item-wrapper" data-aos="fade-down">
+              <div class="portfolio-img-background" id="project-5"></div>
+
+              <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                <i class="fab fa-html5 fa-3x pr-3"></i>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <i class="fab fa-js-square fa-3x pl-3"></i>
+                </div>
+                
+                <h5 class="subtitle">Ratings</h5>
+                <a href="https://github.com/luigi009/luigi-fanaro/tree/master/start%20ratings" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-item-wrapper" data-aos="fade-down">
+              <div class="portfolio-img-background" id="project-6"></div>
+
+              <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                <i class="fab fa-html5 fa-3x pr-3"></i>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <i class="fab fa-js-square fa-3x pl-3"></i>
+                </div>
+                
+                <h5 class="subtitle">Theme Switcher</h5>
+                <a href="https://github.com/luigi009/luigi-fanaro/tree/master/Theme%20Switcher" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-item-wrapper" data-aos="fade-down">
+              <div class="portfolio-img-background" id="project-7"></div>
+
+              <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                <i class="fab fa-html5 fa-3x pr-3"></i>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <i class="fab fa-js-square fa-3x pl-3"></i>
+                </div>
+                
+                <h5 class="subtitle">Countdown</h5>
+                <a href="https://github.com/luigi009/luigi-fanaro/tree/master/Countdown" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-item-wrapper" data-aos="fade-down">
+              <div class="portfolio-img-background" id="project-8"></div>
+
+              <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                <i class="fab fa-html5 fa-3x pr-3"></i>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <i class="fab fa-js-square fa-3x pl-3"></i>
+                </div>
+                
+                <h5 class="subtitle">Calculator</h5>
+                <a href="https://github.com/luigi009/luigi-fanaro/tree/master/Calculator" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-item-wrapper" data-aos="fade-down">
+              <div class="portfolio-img-background" id="project-9"></div>
+
+              <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                <i class="fab fa-react fa-3x"></i>
+                </div>
+                
+                <h5 class="subtitle">Weather App</h5>
+                <a href="https://github.com/luigi009/luigi-fanaro/tree/master/React%20Weather%20App/react-weather-app" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-item-wrapper" data-aos="fade-down">
+              <div class="portfolio-img-background" id="project-10"></div>
+
+              <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                <i class="fab fa-react fa-3x"></i>
+                </div>
+                
+                <h5 class="subtitle">Shopping Cart</h5>
+                <a href="https://github.com/luigi009/luigi-fanaro/tree/react/Shopping%20Cart%20(React)/shoppingcart" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-item-wrapper" data-aos="fade-down">
+              <div class="portfolio-img-background" id="project-11"></div>
+
+              <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                    <i class="fab fa-html5 fa-3x pr-3"></i>
+                    <i class="fab fa-css3-alt fa-3x"></i>
+                    <i class="fab fa-js-square fa-3x pl-3"></i>
+                </div>
+                
+                <h5 class="subtitle">Ecommerce Site</h5>
+                <a href="https://encantodamoda.com.br/" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-item-wrapper" data-aos="fade-down">
+              <div class="portfolio-img-background" id="project-12"></div>
+
+              <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                    <i class="fab fa-html5 fa-3x pr-3"></i>
+                    <i class="fab fa-css3-alt fa-3x"></i>
+                    <i class="fab fa-js-square fa-3x pl-3"></i>
+                </div>
+                
+                <h5 class="subtitle">Logistics website</h5>
+                <a href="https://rotas.rdc.com.br/" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                </a>
+              </div>
+            </div>
+
+              <div class="portfolio-item-wrapper" data-aos="fade-down">
+                <div class="portfolio-img-background" id="project-13"></div>
+
+                <div class="img-text-wrapper">
+                  <div class="logo-wrapper">
+                      <i class="fab fa-html5 fa-3x pr-3 scroll-animation-1"></i>
+                      <i class="fab fa-css3-alt fa-3x"></i>
+                      <i class="fab fa-js-square fa-3x pl-3"></i>
+                  </div>
+                  
+                  <h5 class="subtitle">Shopkeeper's website for Encanto da Moda</h5>
+                  <a href="https://lojista.encantodamoda.com.br/" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="portfolio-item-wrapper" data-aos="fade-down">
+                <div class="portfolio-img-background" id="project-14"></div>
+
+                <div class="img-text-wrapper">
+                  <div class="logo-wrapper">
+                      <i class="fab fa-html5 fa-3x pr-3 scroll-animation-1"></i>
+                      <i class="fab fa-css3-alt fa-3x"></i>
+                      <i class="fab fa-js-square fa-3x pl-3"></i>
+                  </div>
+                  
+                  <h5 class="subtitle">Delivery site</h5>
+                  <a href="http://painelmotofrete.rdc.com.br/" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                  </a>
+                </div>
+              </div>
+
+      </div>
+
     </div>
+    </>
   )
 }
