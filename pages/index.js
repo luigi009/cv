@@ -1,13 +1,13 @@
 import Head from 'next/head'
-import Link from 'next/link'
 
+const prefix = '/'
 
 export default function Home() {
   return (
     <>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={prefix + '/favicon.ico'} />
 
         <script src="https://kit.fontawesome.com/00eaef9f88.js" crossorigin="anonymous"></script>
       </Head>
