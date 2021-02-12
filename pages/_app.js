@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
   return(
     <>
           <Head>
-        <title>Create Next App</title>
+        <title>Luigi Fanaro</title>
         <link rel="icon" href={prefix + '/favicon.ico'} />
 
         <script src="https://kit.fontawesome.com/00eaef9f88.js" crossorigin="anonymous"></script>
