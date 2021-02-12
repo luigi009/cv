@@ -237,8 +237,25 @@ export default function Home() {
                       <i className="fab fa-js-square fa-3x pl-3"></i>
                   </div>
                   
-                  <h5 class="subtitle">Delivery site</h5>
+                  <h5 class="subtitle">Delivery site focused on the delivery man</h5>
                   <a href="http://painelmotofrete.rdc.com.br/" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div className="portfolio-item-wrapper" data-aos="fade-down">
+                <div className="portfolio-img-background" id="project-15"></div>
+
+                <div className="img-text-wrapper">
+                  <div className="logo-wrapper">
+                      <i className="fab fa-html5 fa-3x pr-3 scroll-animation-1"></i>
+                      <i className="fab fa-css3-alt fa-3x"></i>
+                      <i className="fab fa-js-square fa-3x pl-3"></i>
+                  </div>
+                  
+                  <h5 class="subtitle">Consumer delivery site</h5>
+                  <a href="http://entregas.ventunolog.com.br/" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-link fa-2x icon-link jello-horizontal"></i>
                   </a>
                 </div>

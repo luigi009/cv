@@ -5,11 +5,11 @@ export default function About() {
         <>
         <div class="content-wrapper">
             <div class="two-column-wrapper">
-                    <div class="profile-image-wrapper">
+                    <div className="profile-image-wrapper">
                     <img className="bounce-in-top" src={prefix + '/luigi-fanaro-img.png'} alt="" />
                     </div>
 
-                    <div class="profile-content-wrapper scale-in-center">
+                    <div className="profile-content-wrapper scale-in-center">
                     <h1>Hi, thanks for visiting my site.</h1>
                     <p>With over a decade of development experience in a number of industries I realized that the typical product creation
                         process between clients and developers was flawed. All too often developers rarely communicate to clients throughout
@@ -26,10 +26,10 @@ export default function About() {
                     </p>
 
                     <a href="https://www.linkedin.com/in/luigi-fanaro/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-linkedin fa-3x p-2" style={{color: "#0a66c2"}}></i>
+                        <i className="fab fa-linkedin fa-3x p-2" style={{color: "#0a66c2"}}></i>
                     </a>
                     <a href="https://github.com/luigi009" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github-square fa-3x p-2" style={{color: "#24292e"}}></i>
+                    <i className="fab fa-github-square fa-3x p-2" style={{color: "#24292e"}}></i>
                     </a>
                 </div>
             </div>

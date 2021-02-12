@@ -1,26 +1,25 @@
 import '../styles/globals.css'
 import Link from 'next/link'
+import 'aos/dist/aos.css'
+import AOS from 'aos'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+
+AOS.init({
+  duration: 1000,
+  offset: 100,
+  once: false,
+  delay: 300
+});
 
 function MyApp({ Component, pageProps }) {
   return(
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".collapsibleNavbar">
-            <i class="fas fa-bars"></i>
-          </button>
-        <div className="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul className="navbar-nav">
-              <li><Link href="/"><a>Home</a></Link></li>
+          <ul className="navbar-nav d-flex flex-row">
+              <li><Link href="/"><a className="pr-4">Home</a></Link></li>
               <li><Link href="/about"><a>About</a></Link></li>
           </ul>
-        </div>
-        <div class="right-side">
-              <div class="brand" style={{color: "white"}}>
-                Luigi Fanaro
-              </div>
-        </div>
       </nav>
 
       <Component {...pageProps} />
