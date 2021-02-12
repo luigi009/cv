@@ -29,7 +29,7 @@ export default function About() {
                         <i className="fab fa-linkedin fa-3x p-2" style={{color: "#0a66c2"}}></i>
                     </a>
                     <a href="https://github.com/luigi009" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-github-square fa-3x p-2" style={{color: "#24292e"}}></i>
+                        <i className="fab fa-github-square fa-3x p-2" style={{color: "#24292e"}}></i>
                     </a>
                 </div>
             </div>
