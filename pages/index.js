@@ -2,7 +2,6 @@ import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import React, {useState} from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import Image from 'next/image'
 import { faHtml5, faCss3Alt, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import { faGamepad, faLink, faSearchPlus } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -132,7 +131,7 @@ export default function Home() {
                       <Modal.Body>
                       <Carousel>
                           <Carousel.Item>
-                            <Image
+                            <img
                               src={ prefix + '/img/modalImg/pong-modal-image-1.jpg'}
                               alt="First slide"
                               width={800}
@@ -140,7 +139,7 @@ export default function Home() {
                             />
                           </Carousel.Item>
                           <Carousel.Item>
-                            <Image
+                            <img
                               src={prefix + '/img/modalImg/pong-modal-image-2.jpg'}
                               alt="Second slide"
                               width={800}
@@ -148,7 +147,7 @@ export default function Home() {
                             />
                           </Carousel.Item>
                           <Carousel.Item>
-                            <Image
+                            <img
                               src={prefix + '/img/modalImg/pong-modal-image-3.jpg'}
                               alt="Third slide"
                               width={800}
@@ -191,7 +190,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/snake-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -199,7 +198,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/snake-modal-image-2.jpg'}
                                 alt="Second slide"
                                 width={800}
@@ -207,7 +206,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/snake-modal-image-3.jpg'}
                                 alt="Third slide"
                                 width={800}
@@ -251,7 +250,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/CSSGrid-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -259,7 +258,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/CSSGrid-modal-image-2.jpg'}
                                 alt="Second slide"
                                 width={800}
@@ -267,7 +266,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/CSSGrid-modal-image-3.jpg'}
                                 alt="Third slide"
                                 width={800}
@@ -311,7 +310,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/login&Registration-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -356,7 +355,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/rating-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -364,7 +363,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/rating-modal-image-2.jpg'}
                                 alt="Second slide"
                                 width={800}
@@ -372,7 +371,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/rating-modal-image-3.jpg'}
                                 alt="Third slide"
                                 width={800}
@@ -417,7 +416,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/themeSwitcher-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -425,7 +424,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/themeSwitcher-modal-image-2.jpg'}
                                 alt="Second slide"
                                 width={800}
@@ -433,7 +432,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/themeSwitcher-modal-image-3.jpg'}
                                 alt="Third slide"
                                 width={800}
@@ -478,7 +477,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/countdown-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -523,7 +522,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/calculator-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -531,7 +530,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/calculator-modal-image-2.jpg'}
                                 alt="Second slide"
                                 width={800}
@@ -539,7 +538,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/calculator-modal-image-3.jpg'}
                                 alt="Third slide"
                                 width={800}
@@ -582,7 +581,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/weatherApp-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -590,7 +589,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/weatherApp-modal-image-2.jpg'}
                                 alt="Second slide"
                                 width={800}
@@ -598,7 +597,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/weatherApp-modal-image-3.jpg'}
                                 alt="Third slide"
                                 width={800}
@@ -641,7 +640,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/shoppingCart-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -649,7 +648,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/shoppingCart-modal-image-2.jpg'}
                                 alt="Second slide"
                                 width={800}
@@ -657,7 +656,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/shoppingCart-modal-image-3.jpg'}
                                 alt="Third slide"
                                 width={800}
@@ -702,7 +701,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/ecommerce-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -710,7 +709,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/ecommerce-modal-image-2.jpg'}
                                 alt="Second slide"
                                 width={800}
@@ -718,7 +717,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/ecommerce-modal-image-3.jpg'}
                                 alt="Third slide"
                                 width={800}
@@ -726,7 +725,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/ecommerce-modal-image-4.jpg'}
                                 alt="Fourth slide"
                                 width={800}
@@ -734,7 +733,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/ecommerce-modal-image-5.jpg'}
                                 alt="Fifth slide"
                                 width={800}
@@ -779,7 +778,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/logistics-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -787,7 +786,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/logistics-modal-image-2.jpg'}
                                 alt="Second slide"
                                 width={800}
@@ -795,7 +794,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/logistics-modal-image-3.jpg'}
                                 alt="Third slide"
                                 width={800}
@@ -840,7 +839,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/shopkeepers-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -848,7 +847,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/shopkeepers-modal-image-2.jpg'}
                                 alt="Second slide"
                                 width={800}
@@ -856,7 +855,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/shopkeepers-modal-image-3.jpg'}
                                 alt="Third slide"
                                 width={800}
@@ -901,7 +900,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/delivery-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -909,7 +908,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/delivery-modal-image-2.jpg'}
                                 alt="Second slide"
                                 width={800}
@@ -917,7 +916,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/delivery-modal-image-3.jpg'}
                                 alt="Third slide"
                                 width={800}
@@ -962,7 +961,7 @@ export default function Home() {
                         <Modal.Body>
                         <Carousel>
                         <Carousel.Item>
-                              <Image
+                              <img
                                 src={ prefix + '/img/modalImg/consumerDelivery-modal-image-1.jpg'}
                                 alt="First slide"
                                 width={800}
@@ -970,7 +969,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/consumerDelivery-modal-image-2.jpg'}
                                 alt="Second slide"
                                 width={800}
@@ -978,7 +977,7 @@ export default function Home() {
                               />
                             </Carousel.Item>
                             <Carousel.Item>
-                              <Image
+                              <img
                                 src={prefix + '/img/modalImg/consumerDelivery-modal-image-3.jpg'}
                                 alt="Third slide"
                                 width={800}

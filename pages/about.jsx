@@ -1,6 +1,5 @@
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Image from 'next/image'
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
@@ -10,7 +9,7 @@ export default function About() {
         <div class="content-wrapper">
             <div class="two-column-wrapper">
                     <div className="profile-image-wrapper">
-                    <Image className="bounce-in-top" height={500} width={750} src={prefix + '/luigi-fanaro-img.png'} alt="" />
+                    <img className="bounce-in-top" height={500} width={750} src={prefix + '/luigi-fanaro-img.png'} alt="" />
                     </div>
 
                     <div className="profile-content-wrapper scale-in-center">
