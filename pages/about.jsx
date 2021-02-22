@@ -9,7 +9,7 @@ export default function About() {
         <div class="content-wrapper">
             <div class="two-column-wrapper">
                     <div className="profile-image-wrapper">
-                    <img className="bounce-in-top" height={500} width={750} src={prefix + '/luigi-fanaro-img.png'} alt="" />
+                    <img className="bounce-in-top" src={prefix + '/luigi-fanaro-img.png'} alt="" />
                     </div>
 
                     <div className="profile-content-wrapper scale-in-center">
@@ -29,10 +29,10 @@ export default function About() {
                     </p>
 
                     <a href="https://www.linkedin.com/in/luigi-fanaro/" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faLinkedin} size="4x" style={{color: "#0a66c2", marginRight: "15px" }} />
+                        <FontAwesomeIcon icon={faLinkedin} size="3x" style={{color: "#0a66c2", marginRight: "15px" }} />
                     </a>
                     <a href="https://github.com/luigi009" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faGithubSquare} size="4x" style={{color: "#24292e"}} />
+                        <FontAwesomeIcon icon={faGithubSquare} size="3x" style={{color: "#24292e"}} />
                     </a>
                 </div>
             </div>
