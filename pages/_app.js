@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
         <title>Luigi Fanaro</title>
         <link rel="icon" href={prefix + '/favicon.ico'} />
 
-        <script src="https://kit.fontawesome.com/00eaef9f88.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/00eaef9f88.js" crossOrigin="anonymous"></script>
       </Head>
 
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">

@@ -885,7 +885,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faJsSquare} size="3x" style={{color: "#fff"}} />
                   </div>
                   
-                  <h5 class="subtitle">Delivery website</h5>
+                  <h5 className="subtitle">Delivery website</h5>
                   <div className="d-flex flex-row">
                     <a href="http://painelmotofrete.rdc.com.br/" target="_blank" rel="noopener noreferrer">
                       <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
@@ -946,7 +946,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faJsSquare} size="3x" style={{color: "#fff"}} />
                   </div>
                   
-                  <h5 class="subtitle">Consumer delivery website</h5>
+                  <h5 className="subtitle">Consumer delivery website</h5>
                   <div className="d-flex flex-row">
                     <a href="http://entregas.ventunolog.com.br/" target="_blank" rel="noopener noreferrer">
                       <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
