@@ -336,7 +336,7 @@ a {
     transition: ease-in-out 1s;
   }
   
-  .img-text-wrapper .subtitle, .icon-link {
+  .img-text-wrapper .subtitle, .img-text-wrapper .fontAwesomeIcon {
     transition: 1s;
     color: transparent;
   }
@@ -355,7 +355,7 @@ a {
     font-weight: bold;
   }
 
-  .img-text-wrapper:hover .icon-link {
+  .img-text-wrapper:hover .fontAwesomeIcon {
       color: white;
       font-weight: bold;
   }
@@ -402,7 +402,7 @@ a {
         grid-template-columns: 10fr;
       }
 
-    .img-text-wrapper .subtitle, .icon-link {
+    .img-text-wrapper .subtitle, .icon-link, .fa-search-plus {
         color: white;
     }
 
