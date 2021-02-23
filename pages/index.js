@@ -112,7 +112,7 @@ export default function Home() {
 
               <div className="img-text-wrapper">
                 <div className="logo-wrapper">
-                  <FontAwesomeIcon icon={faGamepad} className="fontAwesomeIcon" style={{color: "#fff", fontsize: "50px"}} />
+                  <FontAwesomeIcon icon={faGamepad} className="fontAwesomeIcon" style={{color: "#fff"}} />
                 </div>
                 
                 <h5 className="subtitle">Pong Game</h5>
