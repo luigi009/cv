@@ -364,6 +364,7 @@ a {
 
   .fontAwesomeIcon {
     font-size: 45px;;
+    width: 45px;
   }
 
   .img-text-wrapper:hover .fontAwesomeIcon {
