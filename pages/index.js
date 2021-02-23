@@ -940,18 +940,18 @@ export default function Home() {
 
                 <div className="img-text-wrapper">
                   <div className="logo-wrapper">
-                    <FontAwesomeIcon icon={faHtml5} size="3x" style={{color: "#fff"}} />
-                    <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
-                    <FontAwesomeIcon icon={faJsSquare} size="3x" style={{color: "#fff"}} />
+                    <FontAwesomeIcon icon={faHtml5} className="fontAwesomeIcon" style={{color: "#fff"}} />
+                    <FontAwesomeIcon icon={faCss3Alt} className="fontAwesomeIcon" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
+                    <FontAwesomeIcon icon={faJsSquare} className="fontAwesomeIcon" style={{color: "#fff"}} />
                   </div>
                   
                   <h5 className="subtitle">Consumer delivery website</h5>
                   <div className="d-flex flex-row">
                     <a href="http://entregas.ventunolog.com.br/" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                     </a>
                     <a href="#consumerdeliveryModalImages" id="consumerdeliveryModalInput" onClick={handleShowModalConsumerDelivery}>
-                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                     </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalConsumerDelivery} onHide={handleCloseModalConsumerDelivery} size="lg" centered>
