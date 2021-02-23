@@ -112,16 +112,16 @@ export default function Home() {
 
               <div className="img-text-wrapper">
                 <div className="logo-wrapper">
-                  <FontAwesomeIcon icon={faGamepad} size="3x" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faGamepad} className="fontAwesomeIcon" style={{color: "#fff", fontsize: "50px"}} />
                 </div>
                 
                 <h5 className="subtitle">Pong Game</h5>
                 <div className="d-flex flex-row">
                   <a href="https://github.com/luigi009/luigi-fanaro/tree/master/Games_Javascript/Pong" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#pongModalImages" id="pongModalInput" onClick={handleShowModalPong}>
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                   </a>
                     {/* <!-- Modal --> */}
                     <Modal show={showModalPong} onHide={handleCloseModalPong} size="lg" centered>
@@ -171,16 +171,16 @@ export default function Home() {
 
               <div className="img-text-wrapper">
                 <div className="logo-wrapper">
-                  <FontAwesomeIcon icon={faGamepad} size="3x" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faGamepad} className="fontAwesomeIcon" style={{color: "#fff"}} />
                 </div>
                 
                 <h5 className="subtitle">Snake Game</h5>
                 <div className="d-flex flex-row">
                   <a href="https://github.com/luigi009/luigi-fanaro/tree/master/Games_Javascript/Runner" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#snakeModalImages" id="snakeModalInput" onClick={handleShowModalSnake}>
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                   </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalSnake} onHide={handleCloseModalSnake} size="lg" centered>
@@ -230,17 +230,17 @@ export default function Home() {
 
               <div className="img-text-wrapper">
                 <div className="logo-wrapper">
-                  <FontAwesomeIcon icon={faHtml5} size="3x" style={{color: "#fff", marginRight: "15px"}} />
-                  <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faHtml5} className="fontAwesomeIcon" style={{color: "#fff", marginRight: "15px"}} />
+                  <FontAwesomeIcon icon={faCss3Alt} className="fontAwesomeIcon" style={{color: "#fff"}} />
                 </div>
                 
                 <h5 className="subtitle">CSS Grid</h5>
                 <div className="d-flex flex-row">
                   <a href="https://github.com/luigi009/luigi-fanaro/tree/master/Landing%20Page%20with%20CSS%20Grid" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#cssGridModalImages" id="cssGridModalInput" onClick={handleShowModalCssGrid}>
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                   </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalCssGrid} onHide={handleCloseModalCssGrid} size="lg" centered>
@@ -290,17 +290,17 @@ export default function Home() {
 
               <div className="img-text-wrapper">
                 <div className="logo-wrapper">
-                  <FontAwesomeIcon icon={faHtml5} size="3x" style={{color: "#fff", marginRight: "15px"}} />
-                  <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faHtml5} className="fontAwesomeIcon" style={{color: "#fff", marginRight: "15px"}} />
+                  <FontAwesomeIcon icon={faCss3Alt} className="fontAwesomeIcon" style={{color: "#fff"}} />
                 </div>
                 
                 <h5 className="subtitle">Login & Registration</h5>
                 <div className="d-flex flex-row">
                   <a href="https://github.com/luigi009/luigi-fanaro/tree/master/login%26Registration" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#loginRegistrationModalImages" id="loginRegistrationModalInput" onClick={handleShowModalLoginRegistration}>
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                   </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalLoginRegistration} onHide={handleCloseModalLoginRegistration} size="lg" centered>
@@ -334,18 +334,18 @@ export default function Home() {
 
               <div className="img-text-wrapper">
                 <div className="logo-wrapper">
-                  <FontAwesomeIcon icon={faHtml5} size="3x" style={{color: "#fff"}} />
-                  <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
-                  <FontAwesomeIcon icon={faJsSquare} size="3x" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faHtml5} className="fontAwesomeIcon" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faCss3Alt} className="fontAwesomeIcon" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
+                  <FontAwesomeIcon icon={faJsSquare} className="fontAwesomeIcon" style={{color: "#fff"}} />
                 </div>
                 
                 <h5 className="subtitle">Ratings</h5>
                 <div className="d-flex flex-row">
                   <a href="https://github.com/luigi009/luigi-fanaro/tree/master/start%20ratings" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#ratingsModalImages" id="ratingsModalInput" onClick={handleShowModalRatings}>
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                   </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalRatings} onHide={handleCloseModalRatings} size="lg" centered>
@@ -395,18 +395,18 @@ export default function Home() {
 
               <div className="img-text-wrapper">
                 <div className="logo-wrapper">
-                  <FontAwesomeIcon icon={faHtml5} size="3x" style={{color: "#fff"}} />
-                  <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
-                  <FontAwesomeIcon icon={faJsSquare} size="3x" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faHtml5} className="fontAwesomeIcon" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faCss3Alt} className="fontAwesomeIcon" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
+                  <FontAwesomeIcon icon={faJsSquare} className="fontAwesomeIcon" style={{color: "#fff"}} />
                 </div>
                 
                 <h5 className="subtitle">Theme Switcher</h5>
                 <div className="d-flex flex-row">
                   <a href="https://github.com/luigi009/luigi-fanaro/tree/master/Theme%20Switcher" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#themeSwitcherModalImages" id="themeSwitcherModalInput" onClick={handleShowModalThemeSwitcher}>
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                   </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalThemeSwitcher} onHide={handleCloseModalThemeSwitcher} size="lg" centered>
@@ -456,18 +456,18 @@ export default function Home() {
 
               <div className="img-text-wrapper">
                 <div className="logo-wrapper">
-                  <FontAwesomeIcon icon={faHtml5} size="3x" style={{color: "#fff"}} />
-                  <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
-                  <FontAwesomeIcon icon={faJsSquare} size="3x" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faHtml5} className="fontAwesomeIcon" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faCss3Alt} className="fontAwesomeIcon" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
+                  <FontAwesomeIcon icon={faJsSquare} className="fontAwesomeIcon" style={{color: "#fff"}} />
                 </div>
                 
                 <h5 className="subtitle">Countdown</h5>
                 <div className="d-flex flex-row">
                   <a href="https://github.com/luigi009/luigi-fanaro/tree/master/Countdown" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#countdownModalImages" id="countdownModalInput" onClick={handleShowModalCountdown}>
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                   </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalCountdown} onHide={handleCloseModalCountdown} size="lg" centered>
@@ -501,9 +501,9 @@ export default function Home() {
 
               <div className="img-text-wrapper">
                 <div className="logo-wrapper">
-                  <FontAwesomeIcon icon={faHtml5} size="3x" style={{color: "#fff"}} />
-                  <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
-                  <FontAwesomeIcon icon={faJsSquare} size="3x" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faHtml5} className="fontAwesomeIcon" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faCss3Alt} className="fontAwesomeIcon" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
+                  <FontAwesomeIcon icon={faJsSquare} className="fontAwesomeIcon" style={{color: "#fff"}} />
                 </div>
                 
                 <h5 className="subtitle">Calculator</h5>
@@ -512,7 +512,7 @@ export default function Home() {
                     <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
                   </a>
                   <a href="#calculatorModalImages" id="calculatorModalInput" onClick={handleShowModalCalculator}>
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                   </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalCalculator} onHide={handleCloseModalCalculator} size="lg" centered>
@@ -562,16 +562,16 @@ export default function Home() {
 
               <div className="img-text-wrapper">
                 <div className="logo-wrapper">
-                  <FontAwesomeIcon icon={faReact} size="3x" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faReact} className="fontAwesomeIcon" style={{color: "#fff"}} />
                 </div>
                 
                 <h5 className="subtitle">Weather App</h5>
                 <div className="d-flex flex-row">
                   <a href="https://github.com/luigi009/luigi-fanaro/tree/master/React%20Weather%20App/react-weather-app" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#weatherAppModalImages" id="weatherAppModalInput" onClick={handleShowModalWeatherApp}>
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                   </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalWeatherApp} onHide={handleCloseModalWeatherApp} size="lg" centered>
@@ -621,16 +621,16 @@ export default function Home() {
 
               <div className="img-text-wrapper">
                 <div className="logo-wrapper">
-                  <FontAwesomeIcon icon={faReact} size="3x" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faReact} className="fontAwesomeIcon" style={{color: "#fff"}} />
                 </div>
                 
                 <h5 className="subtitle">Shopping Cart</h5>
                 <div className="d-flex flex-row">
                   <a href="https://github.com/luigi009/luigi-fanaro/tree/react/Shopping%20Cart%20(React)/shoppingcart" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#shoppingCartModalImages" id="shoppingCartModalInput" onClick={handleShowModalShoppingCart}>
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                   </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalShoppingCart} onHide={handleCloseModalShoppingCart} size="lg" centered>
@@ -680,18 +680,18 @@ export default function Home() {
 
               <div className="img-text-wrapper">
                 <div className="logo-wrapper">
-                  <FontAwesomeIcon icon={faHtml5} size="3x" style={{color: "#fff"}} />
-                  <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
-                  <FontAwesomeIcon icon={faJsSquare} size="3x" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faHtml5} className="fontAwesomeIcon" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faCss3Alt} className="fontAwesomeIcon" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
+                  <FontAwesomeIcon icon={faJsSquare} className="fontAwesomeIcon" style={{color: "#fff"}} />
                 </div>
                 
                 <h5 className="subtitle">Ecommerce Site</h5>
                 <div className="d-flex flex-row">
                   <a href="https://encantodamoda.com.br/" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#ecommerceCartModalImages" id="ecommerceModalInput" onClick={handleShowModalEcommerce}>
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                   </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalEcommerce} onHide={handleCloseModalEcommerce} size="lg" centered>
@@ -757,18 +757,18 @@ export default function Home() {
 
               <div className="img-text-wrapper">
                 <div className="logo-wrapper">
-                  <FontAwesomeIcon icon={faHtml5} size="3x" style={{color: "#fff"}} />
-                  <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
-                  <FontAwesomeIcon icon={faJsSquare} size="3x" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faHtml5} className="fontAwesomeIcon" style={{color: "#fff"}} />
+                  <FontAwesomeIcon icon={faCss3Alt} className="fontAwesomeIcon" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
+                  <FontAwesomeIcon icon={faJsSquare} className="fontAwesomeIcon" style={{color: "#fff"}} />
                 </div>
                 
                 <h5 className="subtitle">Logistics website</h5>
                 <div className="d-flex flex-row">
                   <a href="https://rotas.rdc.com.br/" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#logisticsModalImages" id="logisticsModalInput" onClick={handleShowModalLogistics}>
-                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                    <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                   </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalLogistics} onHide={handleCloseModalLogistics} size="lg" centered>
@@ -818,18 +818,18 @@ export default function Home() {
 
                 <div className="img-text-wrapper">
                   <div className="logo-wrapper">
-                    <FontAwesomeIcon icon={faHtml5} size="3x" style={{color: "#fff"}} />
-                    <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
-                    <FontAwesomeIcon icon={faJsSquare} size="3x" style={{color: "#fff"}} />
+                    <FontAwesomeIcon icon={faHtml5} className="fontAwesomeIcon" style={{color: "#fff"}} />
+                    <FontAwesomeIcon icon={faCss3Alt} className="fontAwesomeIcon" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
+                    <FontAwesomeIcon icon={faJsSquare} className="fontAwesomeIcon" style={{color: "#fff"}} />
                   </div>
                   
                   <h5 className="subtitle">Shopkeeper's website</h5>
                   <div className="d-flex flex-row">
                     <a href="https://lojista.encantodamoda.com.br/" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                     </a>
                     <a href="#shopkeepersModalImages" id="shopkeepersModalInput" onClick={handleShowModalShopkeepers}>
-                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                     </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalShopkeepers} onHide={handleCloseModalShopkeepers} size="lg" centered>
@@ -879,18 +879,18 @@ export default function Home() {
 
                 <div className="img-text-wrapper">
                   <div className="logo-wrapper">
-                    <FontAwesomeIcon icon={faHtml5} size="3x" style={{color: "#fff"}} />
-                    <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
-                    <FontAwesomeIcon icon={faJsSquare} size="3x" style={{color: "#fff"}} />
+                    <FontAwesomeIcon icon={faHtml5} className="fontAwesomeIcon"style={{color: "#fff"}} />
+                    <FontAwesomeIcon icon={faCss3Alt} className="fontAwesomeIcon" style={{color: "#fff", marginRight: "15px", marginLeft: "15px"}} />
+                    <FontAwesomeIcon icon={faJsSquare} className="fontAwesomeIcon" style={{color: "#fff"}} />
                   </div>
                   
                   <h5 className="subtitle">Delivery website</h5>
                   <div className="d-flex flex-row">
                     <a href="http://painelmotofrete.rdc.com.br/" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} size="2x" style={{marginRight: "15px"}} />
+                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                     </a>
                     <a href="#deliveryModalImages" id="deliveryModalInput" onClick={handleShowModalDelivery}>
-                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} size="2x" />
+                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
                     </a>
                       {/* <!-- Modal --> */}
                       <Modal show={showModalDelivery} onHide={handleCloseModalDelivery} size="lg" centered>

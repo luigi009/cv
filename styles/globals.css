@@ -362,6 +362,10 @@ a {
     font-weight: bold;
   }
 
+  .fontAwesomeIcon {
+    font-size: 45px;;
+  }
+
   .img-text-wrapper:hover .fontAwesomeIcon {
       color: white;
       font-weight: bold;

@@ -29,10 +29,10 @@ export default function About() {
                     </p>
 
                     <a href="https://www.linkedin.com/in/luigi-fanaro/" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faLinkedin} size="3x" style={{color: "#0a66c2", marginRight: "15px" }} />
+                        <FontAwesomeIcon icon={faLinkedin} className="fontAwesomeIcon" style={{color: "#0a66c2", marginRight: "15px" }} />
                     </a>
                     <a href="https://github.com/luigi009" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faGithubSquare} size="3x" style={{color: "#24292e"}} />
+                        <FontAwesomeIcon icon={faGithubSquare} className="fontAwesomeIcon" style={{color: "#24292e"}} />
                     </a>
                 </div>
             </div>
