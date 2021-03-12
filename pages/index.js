@@ -886,7 +886,7 @@ export default function Home() {
                   
                   <h5 className="subtitle">Delivery website</h5>
                   <div className="d-flex flex-row">
-                    <a href="http://painelmotofrete.rdc.com.br/" target="_blank" rel="noopener noreferrer">
+                    <a href="http://entregadores.ventunolog.com.br/" target="_blank" rel="noopener noreferrer">
                       <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                     </a>
                     <a href="#deliveryModalImages" id="deliveryModalInput" onClick={handleShowModalDelivery}>
