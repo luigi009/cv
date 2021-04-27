@@ -15,6 +15,11 @@ a {
   box-sizing: border-box;
 }
 
+img {
+  width: 100% !important;
+  height: auto !important;
+}
+
   /*Animations*/
   .bounce-in-top {
     -webkit-animation: bounce-in-top 1.1s both;
@@ -300,6 +305,10 @@ a {
 #project-15 {
   background-image: url(../public/img/entregas-img.jpg);
 }
+
+#project-16 {
+  background-image: url(../public/img/netflixClone-img.jpg);
+}
   /*--------------*/
   
   .portfolio-items-wrapper {
@@ -400,12 +409,14 @@ a {
 
   /*Mobile*/
   @media only screen and (max-width: 480px) {
+
     .portfolio-items-wrapper {
         grid-template-columns: 1fr;
       }
   }
 
   @media only screen and (max-width: 1024px) {
+
     .two-column-wrapper {
         grid-template-columns: 1fr;
     }
