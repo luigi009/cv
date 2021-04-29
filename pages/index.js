@@ -573,7 +573,7 @@ export default function Home() {
                 
                 <h5 className="subtitle">Weather App</h5>
                 <div className="d-flex flex-row">
-                  <a href="https://github.com/luigi009/luigi-fanaro/tree/master/React%20Weather%20App/react-weather-app" target="_blank" rel="noopener noreferrer">
+                  <a href="https://weather-app-luigi009.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#weatherAppModalImages" id="weatherAppModalInput" onClick={handleShowModalWeatherApp}>
