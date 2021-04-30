@@ -107,6 +107,12 @@ export default function Home() {
   const handleCloseModalNetflixClone = () => setShowModalNetflixClone(false);
   const handleShowModalNetflixClone = () => setShowModalNetflixClone(true);
 
+  //Movie-Series-Info
+  const [showModalMoviesSeriesInfo, setShowModalMoviesSeriesInfo] = useState(false);
+
+  const handleCloseModalMoviesSeriesInfo = () => setShowModalMoviesSeriesInfo(false);
+  const handleShowModalMoviesSeriesInfo = () => setShowModalMoviesSeriesInfo(true);
+
   return (
     <>
       <div className="content-wrapper">
@@ -1053,6 +1059,57 @@ export default function Home() {
                         </Modal.Body>
                         <Modal.Footer>
                           <Button variant="secondary" onClick={handleCloseModalNetflixClone}>
+                            Close
+                          </Button>
+                        </Modal.Footer>
+                      </Modal>
+                  </div>
+                </div>
+              </div>
+
+              <div className="portfolio-item-wrapper" data-aos="fade-down">
+                <div className="portfolio-img-background" id="project-17"></div>
+
+                <div className="img-text-wrapper">
+                  <div className="logo-wrapper">
+                    <FontAwesomeIcon icon={faReact} className="fontAwesomeIcon" style={{color: "#fff"}} />
+                  </div>
+                  
+                  <h5 className="subtitle">Movies and Series Info</h5>
+                  <div className="d-flex flex-row">
+                    <a href="https://movies-series.vercel.app/#/" target="_blank" rel="noopener noreferrer">
+                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
+                    </a>
+                    <a href="#moviesSeriesInfoModalImages" id="moviesSeriesInfoModalInput" onClick={handleShowModalMoviesSeriesInfo}>
+                      <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faSearchPlus} />
+                    </a>
+                      {/* <!-- Modal --> */}
+                      <Modal show={showModalMoviesSeriesInfo} onHide={handleCloseModalMoviesSeriesInfo} size="lg" centered>
+                        <Modal.Header closeButton>
+                          <Modal.Title>Netflix CLone</Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                        <Carousel>
+                        <Carousel.Item>
+                              <img
+                                src={ prefix + '/img/modalImg/MoviesSeriesInfo-modal-image-1.jpg'}
+                                alt="First slide"
+                                width={800}
+                                height={600}
+                              />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                              <img
+                                src={prefix + '/img/modalImg/MoviesSeriesInfo-modal-image-2.jpg'}
+                                alt="Second slide"
+                                width={800}
+                                height={600}
+                              />
+                            </Carousel.Item>
+                          </Carousel>
+                        </Modal.Body>
+                        <Modal.Footer>
+                          <Button variant="secondary" onClick={handleCloseModalMoviesSeriesInfo}>
                             Close
                           </Button>
                         </Modal.Footer>
