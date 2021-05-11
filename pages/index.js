@@ -699,7 +699,7 @@ export default function Home() {
                 
                 <h5 className="subtitle">Ecommerce Site</h5>
                 <div className="d-flex flex-row">
-                  <a href="https://encantodamoda.com.br/" target="_blank" rel="noopener noreferrer">
+                  <a href="http://storevenu.com.br/" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#ecommerceCartModalImages" id="ecommerceModalInput" onClick={handleShowModalEcommerce}>
@@ -837,7 +837,7 @@ export default function Home() {
                   
                   <h5 className="subtitle">Shopkeeper's website</h5>
                   <div className="d-flex flex-row">
-                    <a href="https://lojista.encantodamoda.com.br/" target="_blank" rel="noopener noreferrer">
+                    <a href="http://lojista.storevenu.com.br/" target="_blank" rel="noopener noreferrer">
                       <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                     </a>
                     <a href="#shopkeepersModalImages" id="shopkeepersModalInput" onClick={handleShowModalShopkeepers}>
