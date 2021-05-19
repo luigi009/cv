@@ -424,7 +424,7 @@ export default function Home() {
                 
                 <h5 className="subtitle">Logistics website</h5>
                 <div className="d-flex flex-row">
-                  <a href="https://rotas.rdc.com.br/" target="_blank" rel="noopener noreferrer">
+                  <a href="http://rotas.ventunolog.com.br/" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon className="jello-horizontal fontAwesomeIcon" icon={faLink} style={{marginRight: "15px"}} />
                   </a>
                   <a href="#logisticsModalImages" id="logisticsModalInput" onClick={handleShowModalLogistics}>
@@ -456,6 +456,22 @@ export default function Home() {
                             <Carousel.Item>
                               <img
                                 src={prefix + '/img/modalImg/logistics-modal-image-3.jpg'}
+                                alt="Third slide"
+                                width={800}
+                                height={500}
+                              />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                              <img
+                                src={prefix + '/img/modalImg/logistics-modal-image-4.jpg'}
+                                alt="Third slide"
+                                width={800}
+                                height={500}
+                              />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                              <img
+                                src={prefix + '/img/modalImg/logistics-modal-image-5.jpg'}
                                 alt="Third slide"
                                 width={800}
                                 height={500}
