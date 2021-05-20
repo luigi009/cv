@@ -138,7 +138,7 @@ export default function Home() {
                       {/* <!-- Modal --> */}
                       <Modal show={showModalMoviesSeriesInfo} onHide={handleCloseModalMoviesSeriesInfo} size="lg" centered>
                         <Modal.Header closeButton>
-                          <Modal.Title>Netflix CLone</Modal.Title>
+                          <Modal.Title>Movies and Series Images</Modal.Title>
                         </Modal.Header>
                         <Modal.Body>
                         <Carousel>
@@ -189,7 +189,7 @@ export default function Home() {
                       {/* <!-- Modal --> */}
                       <Modal show={showModalNetflixClone} onHide={handleCloseModalNetflixClone} size="lg" centered>
                         <Modal.Header closeButton>
-                          <Modal.Title>Netflix CLone</Modal.Title>
+                          <Modal.Title>Netflix Clone</Modal.Title>
                         </Modal.Header>
                         <Modal.Body>
                         <Carousel>
